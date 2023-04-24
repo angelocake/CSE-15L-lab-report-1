@@ -56,7 +56,7 @@
   }` \
   (or as the image below)
 ![No_Bug_Code](https://user-images.githubusercontent.com/130005453/233908124-3c92c30a-a8c9-4208-b788-d35c00098c4b.png)
-
+The code above fixes the code because instead of replacing the starting array (`arr`) with the 0 values of the `newArray`, the code would now fill in the 0's of the `newArray` with the values of the `arr` but placing them in the reverse order (the first element in `arr` would be placed as the last element of `newArray`). The fixes also return the newly created array instead of the starting array.
 
 ### Part 3 (Things learned):
 * Something I learned from labs 2 and 3 was the idea of servers being more than just a videogame thing which allows for larger quantities of people to use a specific program.
