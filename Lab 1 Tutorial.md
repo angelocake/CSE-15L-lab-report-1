@@ -6,7 +6,7 @@
 2. The basic commands of my server are displaying the current List of strings implemented to the server which can be found by following the server link. Along with adding words to the list by writing `/add-message?s=` into the address bar of my string server. If anything else other than the two basic calls of my server then the user is prompted with a `404 Not Found!` screen.
     ![Code_Part_1](https://user-images.githubusercontent.com/130005453/233888785-23dbae42-9420-4990-ae10-c7ae99b2e78a.png)
 
-    ![Code_Part_2](https://user-images.githubusercontent.com/130005453/233888706-0a5c6347-0ef6-48ae-bda0-446794f96e76.png))
+    ![Code_Part_2](https://user-images.githubusercontent.com/130005453/233888706-0a5c6347-0ef6-48ae-bda0-446794f96e76.png)
 
 * Infrmation on server
 * Below is an image of the server when it is simply opened up (before any words are added to the list)
@@ -21,4 +21,6 @@
 ### Part 2 (Bug CHecking):
 
 ### Part 3 (Things learned):
-* he
+* Something I learned from labs 2 and 3 was the idea of servers being more than just a videogame thing which allows for larger quantities of people to use a specific program.
+* Originally: I knew the concept of a server since games often use this to funnel a finite number of players into spaces which the computer system could handle rather than having every person all in one server.
+* Now: I know that even the websites we use and probably other applications of servers allows for larger quantities of people to use the same system/program while also ensuring that the server works as it's intended (Without crashing or slowing down too bad).
