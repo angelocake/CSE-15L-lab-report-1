@@ -18,7 +18,7 @@
 
 
 3. Methods called in code
-### Part 2 (Bug CHecking):
+### Part 2 (Bug Checking):
 
 ### Part 3 (Things learned):
 * Something I learned from labs 2 and 3 was the idea of servers being more than just a videogame thing which allows for larger quantities of people to use a specific program.
