@@ -17,10 +17,68 @@
 
 
 * The following image is an example call which usses `/add-message?s=` to add a word onto my list (Note: To view entire list of words I would need to edit the url so it is the same as the previous image rather than the one below)
-![Added_Word_Example](https://user-images.githubusercontent.com/130005453/233890070-3fea9f06-a41a-48ae-ab93-daaa86cf809d.png)
+![Cake_Added_Word_Example](https://user-images.githubusercontent.com/130005453/233890070-3fea9f06-a41a-48ae-ab93-daaa86cf809d.png)
+Methods called for the image above:
+* `format()` 
+    * Arguments: Takes in new `String`(in our case `cake`) and adds it to `"Word added was "` before displaying it to the user
+
+* `println()`
+    * Arguments: takes `URL` (more specifically the path of the `URL`) to add it to the string `"Path: "` before displaying it on the terminal the server is running on
+
+* `getpath()`
+    * Arguments: takes in no argument but returns the path of the current `URL` before proceeding onto the next step of code
+
+* `getQuery()` 
+    * Arguments: Takes in no argument but returns a shortened version of the path of the `URL` with everything after the `"?"` in the path (returned this information into the system before proceeding with the rest of the code)
+ 
+* `split()` 
+    * Arguments: Takes in `String` (in our case `"="`) and looks for that in the shortened `URL` querry in order to create 2 smaller strings consisting of `s` and `what ever the user inputed`
+
+* `contains()` 
+    * Arguments: takes in a `String` (in this case `"/add-message"`) and checks the path of the `URL` to see if the `URL` is trying to add new words to the `String` list for the server. If it does it produces true and if not it produces false
+
+* `equals()` 
+    * Arguments: Takes in a `String` (`"s"`)and checks to see if it is the same as the querry formed through the `URL` link to add a word on our list. If it's true then it proceeds with the rest of the code to add a word onto the list.
+
+* `HandleRequest()` 
+    * Arguments: Takes in a `URL` and affects the server/webpage based on the pathway of the `URL`. If the `URL` only has a "/" for the pathway then the page displays the current `String` list. If the `URL` has "/add-message" (in sthis case: `"/add-message?s=cake"`) it checks to see if it'll add a new string to the list.
+Relevant value that the image above produces: `cake` being the key difference between the `URL` differences of the last image and the one coming up. (One `URL` ended in `cake` while the other ended in `pie`)
+
+The values that get changed in the image above and below are:
+* `String` (that holds all the strings of the server. In other words the list of strings the user has added previously) The `String` gets changed because a new string is added to our server string.
+* `URL`/ `URI` (the weblink itself) gets changed so that our code recognizes different commands of displaying the list of strings or adding a new string to our list
+** It basically gets slightly changed everytime a user wants to add a new word to the list because the end of the `URL/URI` is alteered to show what word the user wants to add to the list.
 
 
 
+The image below is another example of when I `add-message` to my `String` of words
+![pie_add](https://user-images.githubusercontent.com/130005453/234161762-0dd95032-d2f4-4aa3-a1b9-c2b83fa4a1bf.png)
+Methods called for the image above:
+
+* `format()` 
+    * Arguments: Takes in new `String`(in our case `pie`) and adds it to `"Word added was "` before displaying it to the user
+
+* `println()`
+    * Arguments: takes `URL` (more specifically the path of the `URL`) to add it to the string `"Path: "` before displaying it on the terminal the server is running on
+
+* `getpath()`
+    * Arguments: takes in no argument but returns the path of the current `URL` before proceeding onto the next step of code
+
+* `getQuery()` 
+    * Arguments: Takes in no argument but returns a shortened version of the path of the `URL` with everything after the `"?"` in the path (returned this information into the system before proceeding with the rest of the code)
+ 
+* `split()` 
+    * Arguments: Takes in `String` (in our case `"="`) and looks for that in the shortened `URL` querry in order to create 2 smaller strings consisting of `s` and `what ever the user inputed`
+
+* `contains()` 
+    * Arguments: takes in a `String` (in this case `"/add-message"`) and checks the path of the `URL` to see if the `URL` is trying to add new words to the `String` list for the server. If it does it produces true and if not it produces false
+
+* `equals()` 
+    * Arguments: Takes in a `String` (`"s"`)and checks to see if it is the same as the querry formed through the `URL` link to add a word on our list. If it's true then it proceeds with the rest of the code to add a word onto the list.
+
+* `HandleRequest()` 
+    * Arguments: Takes in a `URL` and affects the server/webpage based on the pathway of the `URL`. If the `URL` only has a "/" for the pathway then the page displays the current `String` list. If the `URL` has "/add-message" (in sthis case: `"/add-message?s=pie"`) it checks to see if it'll add a new string to the list.
+Relevant value that the image above produces: `pie` being the key difference between the `URL` differences of the last two images. (One `URL` ended in `cake` while the other ended in `pie`)
 
 
 * Lastly here is an my server's list of strings having added a few more examples
