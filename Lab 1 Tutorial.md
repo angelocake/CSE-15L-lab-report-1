@@ -5,7 +5,6 @@
 2. The basic commands of my server are displaying the current List of strings implemented to the server which can be found by following the server link. Along with adding words to the list by writing `/add-message?s=` into the address bar of my string server. If anything else other than the two basic calls of my server then the user is prompted with a `404 Not Found!` screen.
     ![Code_Part_1](https://user-images.githubusercontent.com/130005453/233888785-23dbae42-9420-4990-ae10-c7ae99b2e78a.png)
     ![Code_Part_2](https://user-images.githubusercontent.com/130005453/233888706-0a5c6347-0ef6-48ae-bda0-446794f96e76.png)
-*
 
 * Infrmation on server
 * Below is an image of the server when it is simply opened up (before any words are added to the list)
