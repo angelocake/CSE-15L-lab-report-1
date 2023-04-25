@@ -6,7 +6,7 @@
     ![Code_Part_1](https://user-images.githubusercontent.com/130005453/233888785-23dbae42-9420-4990-ae10-c7ae99b2e78a.png)
     ![Code_Part_2](https://user-images.githubusercontent.com/130005453/233888706-0a5c6347-0ef6-48ae-bda0-446794f96e76.png)
 
-* Infrmation on server
+* Information on server:
 * Below is an image of the server when it is simply opened up (before any words are added to the list)
 ![Starter_server](https://user-images.githubusercontent.com/130005453/233889762-f73091cc-1818-4c93-9007-9ff44f7e286c.png)
 
